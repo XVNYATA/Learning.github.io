@@ -173,7 +173,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description"></h1>
       
   </div>
 
@@ -298,7 +298,18 @@
   
 </nav>
 
-
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    root: '/',
+    algolia: {
+          applicationID: 'VWZXJNQL9I',
+          apiKey: 'c1903b4c7ab5457133e11a810dacc523',
+          indexName: ''Search',
+          hits: {"per_page":10},
+          labels: {"input_placeholder":"搜索...","hits_empty":"未发现与 「${query}」相关的内容","hits_stats":"${hits} 条相关条目，使用了 ${time} 毫秒"}
+        }
+  };
+</script>
  </div>
     </header>
 
@@ -315,7 +326,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">About Us</h1>
+	<h2 class="post-title" itemprop="name headline">About Us</h2>
 
 
 
@@ -594,7 +605,7 @@
                 alt="author" />
             
               <p class="site-author-name" itemprop="name">author</p>
-              <p class="site-description motion-element" itemprop="description">authorauthorauthor</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -929,5 +940,6 @@
 
   
 
+  <script type="text/javascript" src="/js/src/love.js"></script>
 </body>
 </html>
